@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Технология | BioFilter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">BioFilter</a>
+      <nav class="main-nav">
+        <a href="about.html">О компании</a>
+        <a href="products.html">Продукция</a>
+        <a href="technology.html">Технология</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <button class="nav-toggle">☰</button>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h1>Технология BioFilter</h1>
+      <p class="muted">
+        Технология BioFilter сочетает многоступенчатую фильтрацию и бактерицидное воздействие UVC-диодов, создавая безопасное решение для очистки воздуха и воды.
+      </p>
+
+      <h2>Основные этапы очистки</h2>
+      <ol>
+        <li><strong>Предфильтрация:</strong> задерживает пыль и крупные частицы.</li>
+        <li><strong>HEPA-фильтрация:</strong> улавливает микрочастицы до 0.3 мкм.</li>
+        <li><strong>Активированный уголь:</strong> устраняет запахи и органические соединения.</li>
+        <li><strong>UVC-дезинфекция:</strong> уничтожает бактерии, вирусы и грибки на уровне ДНК.</li>
+      </ol>
+
+      <div class="hero-media" style="margin-top:24px;">
+        <img src="images/tech-diagram.jpg" alt="Схема технологии BioFilter">
+      </div>
+
+      <h2>Преимущества технологии</h2>
+      <ul class="benefits-list">
+        <li>Безопасно для людей и домашних животных</li>
+        <li>Не требует химических реагентов</li>
+        <li>Минимальное энергопотребление</li>
+        <li>Увеличенный срок службы фильтров и LED-диодов</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> BioFilter. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
