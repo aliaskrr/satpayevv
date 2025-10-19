@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Продукция | BioFilter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">BioFilter</a>
+      <nav class="main-nav">
+        <a href="about.html">О компании</a>
+        <a href="products.html">Продукция</a>
+        <a href="technology.html">Технология</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h1>Продукция BioFilter</h1>
+      <p class="muted">Наши фильтры разработаны для различных сфер применения — от бытового до промышленного.</p>
+
+      <div class="cards-grid">
+        <article class="card">
+          <img src="images/filter-home.jpg" alt="Домашний фильтр BioFilter Home">
+          <h3>BioFilter Home</h3>
+          <p>Компактный фильтр для дома и офиса. Уровень шума всего 28 дБ.</p>
+          <p><strong>Площадь:</strong> до 40 м²</p>
+        </article>
+
+        <article class="card">
+          <img src="images/filter-pro.jpg" alt="BioFilter Pro">
+          <h3>BioFilter Pro</h3>
+          <p>Модель с усиленной системой вентиляции и автоматической калибровкой мощности.</p>
+          <p><strong>Площадь:</strong> до 120 м²</p>
+        </article>
+
+        <article class="card">
+          <img src="images/filter-industrial.jpg" alt="BioFilter Industrial">
+          <h3>BioFilter Industrial</h3>
+          <p>Промышленная версия для вентиляционных систем и лабораторий.</p>
+          <p><strong>Производительность:</strong> до 2000 м³/ч</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> BioFilter. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
