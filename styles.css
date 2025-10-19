@@ -204,6 +204,17 @@ body {
   color: #cdd7e0;
   margin-top: 10px;
 }
+/* Исправление для списков внутри секций */
+.section ol, 
+.section ul {
+  margin: 1em 0;
+  padding-left: 1.5em;
+  line-height: 1.6;
+}
+
+.section li {
+  margin-bottom: 0.5em;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -223,3 +234,4 @@ body {
   .hero-inner { flex-direction: column; text-align: center; }
   .hero-media img { width: 100%; }
 }
+
