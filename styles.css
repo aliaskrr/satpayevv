@@ -234,4 +234,14 @@ body {
   .hero-inner { flex-direction: column; text-align: center; }
   .hero-media img { width: 100%; }
 }
+.feature img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius);
+  object-fit: contain; /* <-- важно: не обрезает */
+  background-color: #f9fafc; /* необязательно, просто фон */
+  max-height: 220px; /* можно подогнать под нужный размер */
+  margin-bottom: 12px;
+}
 
