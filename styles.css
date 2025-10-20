@@ -244,4 +244,20 @@ body {
   max-height: 220px; /* можно подогнать под нужный размер */
   margin-bottom: 12px;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--primary-dark);
+}
+
+.logo img {
+  height: 40px;           /* можно подстроить под размер шапки */
+  width: auto;
+  display: block;
+}
+
 
